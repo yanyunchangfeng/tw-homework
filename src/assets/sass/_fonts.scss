@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "cruise";
+  src: url("../fonts/cruise.ttf?srz1pg") format("truetype"),
+    url("../fonts/cruise.woff?srz1pg") format("woff"),
+    url("../fonts/cruise.svg?srz1pg#cruise") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+// [class^="icon-"],
+// [class*=" icon-"] {
+//   /* use !important to prevent issues with browser extensions that change fonts */
+//   font-family: "cruise" !important;
+//   speak: none;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-variant: normal;
+//   text-transform: none;
+//   line-height: 1;
+
+//   /* Better Font Rendering =========== */
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+// }
+
+.icon-desktop {
+  @include cruise-icon("\e30c");
+}
+.icon-boat {
+  @include cruise-icon("\e532");
+}
+.icon-deny {
+  @include cruise-icon("\e611");
+}
+.icon-folder {
+  @include cruise-icon("\e2c8");
+}
+.icon-info {
+  @include cruise-icon("\e88f");
+}
+.icon-plus {
+  @include cruise-icon("\f067");
+}
+.icon-search {
+  @include cruise-icon("\f002");
+}
+.icon-th-card {
+  @include cruise-icon("\f00a");
+}
+.icon-th-list {
+  @include cruise-icon("\f00b");
+}
+.icon-close {
+  @include cruise-icon("\f00d");
+}
+.icon-cog {
+  @include cruise-icon("\f013");
+}
+.icon-trash {
+  @include cruise-icon("\f014");
+}
+.icon-sign-in {
+  @include cruise-icon("\f090");
+}
+.icon-navicon {
+  @include cruise-icon("\f0c9");
+}
+.icon-dashboard{
+  @include cruise-icon("\f0e4");
+}
+.icon-sitemap {
+  @include cruise-icon("\f0e8");
+}
+.icon-coffee {
+  @include cruise-icon("\f0f4");
+}
+.icon-angle-up {
+  @include cruise-icon("\f106");
+}
+.icon-angle-down {
+  @include cruise-icon("\f107");
+}
+.icon-life-bouy {
+  @include cruise-icon("\f1cd");
+}
+.icon-id-card {
+  @include cruise-icon("\f2c3");
+}

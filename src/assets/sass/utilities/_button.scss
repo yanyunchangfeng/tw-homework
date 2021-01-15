@@ -1,0 +1,32 @@
+
+@mixin bt-style ($bgcolor, $tb, $lr){
+   background-color: $bgcolor;
+   border: 0;
+   outline: none;
+   padding: $tb $lr;
+}
+%bt-secondary {
+    @include bt-style ($default,3px,5px);
+}
+%bt-primary {
+    @include bt-style ($blue,3px,5px);
+}
+%bt-default {
+    @include bt-style ($gray,3px,5px);
+}
+
+.ui-button-default{
+   @extend %bt-default
+}
+.ui-button-primary{
+    @extend %bt-primary;
+    &:hover{
+        background-color:$blueHover;
+    }
+}
+.ui-button-secondary{
+    @extend %bt-secondary;
+    &:hover{
+        background-color:$defaultHover;
+    }
+}
