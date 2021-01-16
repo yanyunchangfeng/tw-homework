@@ -19,6 +19,6 @@ module.exports = merge(commonConfig, {
     devServer:{
         port:3001,
         open: true,
-        contentBase:path.join(process.cwd(),'dist')
+        contentBase:path.join(process.cwd(),'docs')
     }
 })

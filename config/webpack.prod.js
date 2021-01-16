@@ -11,8 +11,8 @@ module.exports = merge(commonConfig, {
     mode:"production",
     entry: {
         app: path.resolve(process.cwd(), "src/index.ts"),
-        // 将 第三方依赖(node_modules中的) 单独打包
-        vendor: Object.keys(pkg.dependencies)
+        // 将 第三方依赖(node_modules中的) 单独打包  有就写 没有就不写 否则会build错误
+        // vendor: Object.keys(pkg.dependencies)
     },
     output:{
        path:path.join(process.cwd(), 'docs'),
@@ -27,7 +27,7 @@ module.exports = merge(commonConfig, {
                 use: [
                     { loader: MiniCssExtractPlugin.loader },
                     "css-loader",
-                    // "postcss-loader",
+                    "postcss-loader",
                     "sass-loader"
                 ]
             }

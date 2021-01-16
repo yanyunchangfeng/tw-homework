@@ -1,6 +1,8 @@
 
 module.exports = {
-    plugins: [
-      require('autoprefixer')({overrideBrowserslist: ['> 0.15% in CN']})// 自动添加css前缀
-    ]
+    plugins: {
+      'autoprefixer':{
+        browsers: 'last 10 version' // 代表意思为每个主流浏览器的最后10个版本
+    }
+  }
 }
