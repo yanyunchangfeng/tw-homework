@@ -9,5 +9,5 @@
         "sourceMap": true,
         "experimentalDecorators": true
     },
-    "include": ["./src/**/*.ts", "src/app/lesson/lesson-m1.ts", "src/app/lesson/lesson-m2.ts", "src/app/lesson/lesson-m3.ts"]
+    "include": ["./src/**/*.ts"]
 }

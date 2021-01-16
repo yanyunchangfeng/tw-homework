@@ -7,8 +7,7 @@ module.exports = {
     entry: './index.ts',
     output: {
         path: path.join(process.cwd(), 'dist'),
-        filename: '[name].bundle.js',
-        // publicPath: "", 
+        filename: '[name].bundle.js', 
     },
     resolve: {
         extensions: ['*', '.js', '.ts', '.png']

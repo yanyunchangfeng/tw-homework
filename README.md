@@ -4,7 +4,7 @@
 
 ##  介绍
 
-你好，我是徐晓东，笔名[燕云长风](https://www.yanyunchangfeng.com)。大漠穷秋于 2019-03-16 21:22 赠此笔名。   
+你好，我是徐晓东，笔名[燕云长风](https://yanyunchangfeng.github.io)。大漠穷秋于 2019-03-16 21:22 赠此笔名。   
 寓意：结合李白著名的边塞诗《关山月》取【燕云长风】—— 长风几万里，吹度玉门关。
 
 ##  TWhomework 
@@ -14,70 +14,6 @@
 </p>
 
 * 不用任何第三方库和框架从零搭建响应式页面交互系统
-
-## Jest Unit 测试
-
-### 安装
-```
-   npm install --save-dev jest typescript ts-jest @types/jest  or yarn add --dev jest typescript ts-jest @types/jest
-```
-### 创建测试ts类型的配置文件 jest config file
-```
-   npx ts-jest config:init or  yarn ts-jest config:init
-```
-### 具体配置参数文档 请参照官网：  
-* https://jestjs.io/docs/en/configuration.html
-
-### 运行unit测试
-```
-npm t  or yarn test
-```
-
-## cypress e2e 测试
-
-### 安装
-```
-  npm install cypress --save-dev or  yarn add cypress --dev
-```
-### 打开cypress 测试
-```
-   npx cypress open  or  yarn run cypress open
-```
-### 添加 npm script in package.json
-```
-{
-  "scripts": {
-    "cypress:open": "cypress open"
-  }
-}
-
-```
-
-### typescript文件测试,需在cypress 目录文件夹下创建tsconfig.json
-```
-{
-  "compilerOptions": {
-    "strict": true,
-    "baseUrl": "../node_modules",
-    "target": "es5",
-    "lib": ["es5", "dom"],
-    "types": ["cypress"]
-  },
-  "include": [
-    "**/*.ts"
-  ]
-}
-```
-
-### 创建测试文件需要在cypress/integration 文件夹下创建
-```
-   touch {your_project}/cypress/integration/sample_spec.(j|t)s
-```
-
-### 运行e2e测试,选择指定文件进行测试 
-```
-    npm run cypress:open
-```
 
 ## 我的个人博客  
 
