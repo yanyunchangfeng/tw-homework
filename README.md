@@ -13,11 +13,25 @@
     <img width="300" src="src/assets/img/tw-homework.png">
 </p>
 
-* 不用任何第三方库和框架从零搭建响应式页面交互系统
+## 介绍
 
+不用任何第三方库和框架从零搭建响应式页面交互系统
+
+## 用法
+
+打开你的命令行终端，执行以下命令：
+- git clone https://gitee.com/yanyunchangfeng/tw-homework.git
+- cd tw-homework 
+- npm i 
+- npm start 
+打开你的浏览器，访问http://localhost:3001/
+
+## 在线演示
+
+- tw-homework 在gitee上的演示地址： https://yanyunchangfeng.gitee.io/tw-homework 
 ## 我的个人博客  
 
-* [燕云长风](https://yanyunchangfeng.github.io) 
+- [燕云长风](https://yanyunchangfeng.github.io) 
 
 ## 我参与的系列项目
 
